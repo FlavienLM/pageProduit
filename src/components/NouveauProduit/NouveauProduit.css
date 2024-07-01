@@ -1,0 +1,61 @@
+.nouveauProduit {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+
+}
+
+
+.nouveauProduitBouton {
+    background-color:hsl(180, 5%, 4%);
+    position: fixed;
+    bottom: 5%;
+    height: 50px;
+    right: 3%;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.nouveauProduitBouton:hover{
+    background-color:hsl(180, 5%, 30%);
+}
+
+.fermeMenu {
+    right: 0;
+    position: absolute;
+    background-color: hsl(0, 100%, 50%);
+    cursor: pointer;
+}
+
+.fermeMenu:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+#nouveauProduitText {
+    left: 40%;
+    position: absolute;
+}
+
+
+.imageNouveauProduit{
+    width: 10%;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+}
+
+.confirmer {
+    background-color:hsl(180, 5%, 4%);
+    color: white;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.confirmer:hover {
+    background-color:hsl(180, 5%, 30%);
+}
+

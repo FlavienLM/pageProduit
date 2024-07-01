@@ -1,0 +1,47 @@
+.cartePanier {
+    background-color: lightblue;
+    margin-bottom: 80px;
+}
+
+
+.imagePanier {
+    width:  100px;
+    height: 75px;
+    object-fit:scale-down;
+}
+
+.panier {
+    float:right;
+    min-width: 25%;
+    text-align: center;
+    border-left: 1px solid black;
+    overflow-x: scroll;
+}
+
+.ajoutePanier {
+    background-color: hsl(120, 77%, 71%);
+}
+
+.ajoutePanier:hover {
+    background-color: hsl(120, 77%, 40%);
+}
+
+.enlevePanier {
+    background-color: hsl(0, 83%, 64%);
+}
+
+.enlevePanier:hover {
+    background-color: hsl(0, 90%, 50%);
+}
+
+.valider, .supprimerPanier {
+    border: none;
+    border-radius: 12px;
+    height: 30px;
+    background-color:hsl(180, 5%, 4%);
+    color: white;
+}
+
+.valider:hover, .supprimerPanier:hover {
+    background-color:hsl(180, 5%, 30%);
+}

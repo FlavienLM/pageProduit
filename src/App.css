@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+.principal {
+    min-height: 100vh;
+    display: flex;
+}
+
+.listeProduits {
+    min-width: 80%;
+    max-width: 100%;
+    width: auto;
+}
+
+
+header {
+    padding-top: 30px;
+    background-color:hsl(180, 5%, 4%);
+    overflow: hidden;
+
+}
+.navbar {
+    height: 30px;
+    padding-left: 30%;
+}
+
+.navbarBouton {
+    background:none;
+    color: inherit;
+	border: none;
+    font: inherit;
+    outline: inherit;
+}
+
+.li-navbar{
+    display: inline;
+    padding: 14px 60px;
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.li-navbar:hover {
+    background-color:hsl(180, 5%, 30%);
+}
+
+.displayNone {
+    display: none;
+}
+

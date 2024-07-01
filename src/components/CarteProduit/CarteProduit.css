@@ -1,0 +1,54 @@
+.carteProduit, .carteProduitAdmin, .carteProduitSelected {
+    padding: 2px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-family: arial,serif;
+    display: inline-block;
+    text-align: center;
+}
+
+.carteProduitSelected {
+    border: solid red 2px;
+    box-sizing: border-box;  
+}
+
+
+
+.imageCarteProduit {
+    width:  200px;
+    height: 150px;
+    object-fit:scale-down;
+}
+
+
+.ajouterPanier,.modifierProduit {
+    border: none;
+    cursor:pointer;
+    height: 30px;
+    border-radius: 12px;
+    color: white;
+}
+
+.ajouterPanier {
+    background-color:hsl(193, 77%, 51%);
+    
+}
+
+.ajouterPanier:hover {
+    background-color:hsl(193, 77%, 41%);
+}
+
+.modifierProduit {
+    background-color:hsl(239, 54%, 59%);
+    border: none;
+    cursor:pointer;
+}
+
+.modifierProduit:hover {
+    background-color:hsl(239, 54%, 49%);
+    
+}
+
+
+
+
